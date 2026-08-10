@@ -1,7 +1,7 @@
 # Simulation of Coupled Problems with FEM: Electromechanical Coupling
 
 ## Overview
-This repository contains the numerical implementation and Finite Element Method (FEM) simulation scripts for modeling **electromechanical coupling** in smart materials (specifically barium titanate, BaTiO₃). The project evaluates coupled mechanical deformation and electrical potential fields using non-linear governing equations solved via iterative scheme methods.
+This repository contains the numerical implementation and Finite Element Method (FEM) simulation scripts for modeling **electromechanical coupling** in smart materials (specifically barium titanate, $\text{BaTiO}_3$). The project evaluates coupled mechanical deformation and electrical potential fields using non-linear governing equations solved via iterative scheme methods.
 
 ---
 
@@ -23,7 +23,7 @@ Where:
 * **$\gamma$**: Electromechanical coupling coefficient
 
 ### 2. Constitutive Equations
-* **Cauchy Stress Tensor ($ oldsym{\sigma}$)**:
+* **Cauchy Stress Tensor ($\boldsymbol{\sigma}$)**:
   $$\boldsymbol{\sigma} = \frac{\partial \Psi}{\partial \boldsymbol{\varepsilon}} = \lambda (\text{tr}\,\boldsymbol{\varepsilon})\mathbf{I} + 2\mu\boldsymbol{\varepsilon} + \gamma (\mathbf{a} \cdot \mathbf{E})\mathbf{I}$$
 * **Electric Displacement ($\mathbf{D}$)**:
   $$\mathbf{D} = -\frac{\partial \Psi}{\partial \mathbf{E}} = \beta \mathbf{E} - \gamma (\text{tr}\,\boldsymbol{\varepsilon})\mathbf{a}$$
@@ -52,7 +52,7 @@ Where:
 
 ## Standard Model Configuration & Setup
 
-### Material Properties ($	ext{BaTiO}_3$)
+### Material Properties ($\text{BaTiO}_3$)
 | Property | Notation | Value |
 | :--- | :--- | :--- |
 | Lamé First Parameter | $\lambda$ | $76.6 \times 10^9 \, \text{N/m}^2$ |
@@ -87,14 +87,10 @@ Where:
 ## Getting Started
 
 ### Requirements
-* Python 3.x 
+* Python 3.x / MATLAB
 * NumPy / SciPy / Matplotlib (if using Python)
 
 ### Running the Code
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-2. Run the main simulation script:
-   ```bash
-   python main.py
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
