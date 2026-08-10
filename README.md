@@ -44,9 +44,9 @@ $$\begin{bmatrix} \mathbf{K}_{uu} & \mathbf{K}_{u\phi} \\ \mathbf{K}_{\phi u} & 
 
 Where:
 * $\mathbf{K}_{uu}$: Mechanical stiffness matrix
-* $\mathbf{K}_{u\phi}, \mathbf{K}_{\phi u}$: Electromechanical coupling stiffness matrices
+* $\mathbf{K}_{u\phi}$, $\mathbf{K}_{\phi u}$: Electromechanical coupling stiffness matrices
 * $\mathbf{K}_{\phi\phi}$: Dielectric stiffness matrix
-* $\mathbf{R}_u, \mathbf{R}_\phi$: Mechanical and electrical residual vectors
+* $\mathbf{R}_u$, $\mathbf{R}_\phi$: Mechanical and electrical residual vectors
 
 ---
 
