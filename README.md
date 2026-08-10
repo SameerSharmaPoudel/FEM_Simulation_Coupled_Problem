@@ -87,7 +87,7 @@ Where:
 ## Getting Started
 
 ### Requirements
-* Python 3.x / MATLAB
+* Python 3.x
 * NumPy / SciPy / Matplotlib (if using Python)
 
 ### Running the Code
