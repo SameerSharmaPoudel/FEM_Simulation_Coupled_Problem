@@ -43,10 +43,10 @@ The discretized system yields a coupled system of equations solved via the Newto
 $$\begin{bmatrix} \mathbf{K}_{uu} & \mathbf{K}_{u\phi} \\ \mathbf{K}_{\phi u} & \mathbf{K}_{\phi\phi} \end{bmatrix} \begin{bmatrix} \Delta\mathbf{u} \\ \Delta\boldsymbol{\phi} \end{bmatrix} = \begin{bmatrix} \mathbf{R}_u \\ \mathbf{R}_\phi \end{bmatrix}$$
 
 Where:
-* **Kᵤᵤ**: Mechanical stiffness matrix
-* **Kᵤᵩ**, **Kᵩᵤ**: Electromechanical coupling stiffness matrices
-* **Kᵩᵩ**: Dielectric stiffness matrix
-* **Rᵤ**, **Rᵩ**: Mechanical and electrical residual vectors
+* **K<sub>uu</sub>**: Mechanical stiffness matrix
+* **K<sub>u&phi;</sub>**, **K<sub>&phi;u</sub>**: Electromechanical coupling stiffness matrices
+* **K<sub>&phi;&phi;</sub>**: Dielectric stiffness matrix
+* **R<sub>u</sub>**, **R<sub>&phi;</sub>**: Mechanical and electrical residual vectors
 
 ---
 
